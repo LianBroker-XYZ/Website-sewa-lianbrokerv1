@@ -1,0 +1,7 @@
+{
+  "name": "lianbroker-vercel",
+  "private": true,
+  "scripts": {
+    "build": "PORT=5173 BASE_PATH=/ pnpm --filter @workspace/lianbroker run build"
+  }
+}
