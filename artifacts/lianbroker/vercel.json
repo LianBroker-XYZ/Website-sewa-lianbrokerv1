@@ -1,0 +1,6 @@
+{
+  "framework": "vite",
+  "installCommand": "pnpm install --frozen-lockfile",
+  "buildCommand": "PORT=5173 BASE_PATH=/ pnpm run build",
+  "outputDirectory": "dist/public"
+}
